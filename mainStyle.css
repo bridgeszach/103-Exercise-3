@@ -1,0 +1,225 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color:rgb(166, 163, 170);
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+/* Headings */
+
+h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 34px;
+    text-decoration: underline;
+  }
+  h3{
+    font-size: 28px;
+    text-decoration: underline;
+  }
+  h4{
+    font-size: 28px;
+    text-decoration: underline;
+  }
+
+
+
+/* Header */
+.site-header{    
+    padding: 10px 0px 30px 0px;
+  }
+  
+  .site-header.init{
+    background-image: url(img/Banner.jpg);
+    background-position: center center !important;
+    background-size: cover ;
+    height: 60vh;
+    min-height: 500px;
+    border-radius: 4px;
+    
+    
+    }
+
+  .content-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+  }
+  
+  .content-header h1{
+    color: rgb(46, 61, 192);
+    padding-bottom: 1rem;
+    max-width: 600px;
+  
+  }
+  
+  .bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    
+  }
+
+
+
+  /* Menu */
+
+  .menu a{
+    color: rgb(46, 61, 192);
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-right: 80rem;
+    margin-left: 1rem;
+    
+ }
+  
+  .menu a:hover{
+    color: rgb(73, 209, 96);
+  }
+
+#id02{
+    border-radius: 8px;
+}
+
+.icons-us{
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    height: 15rem;
+  }
+
+              /* Products */
+.products-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product{
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+    flex-basis: calc(33.3% - 28px);
+    margin-bottom: 20px;
+}
+
+.product-content{
+    margin: 0px;
+    padding: 20px;
+}
+
+.price{
+    color: #71b000;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.icon-characteristics{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 500px;
+}
+
+.icon-characteristics li{
+    display: flex;
+}
+
+.icon-characteristics li img{
+    margin-right: 20px;
+}
+
+                            /* BUTTON */
+.button{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 100%;    
+}
+
+.contact-button{
+  color: rgb(46, 61, 192);
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  border: none;
+  display: block;
+  flex: 100%;    
+}
+                            
+.button-yellow{
+    background-color: rgb(46, 61, 192);
+}
+
+.button-yellow:hover{
+    background-color: rgb(73, 209, 96);
+}
+
+/* Contact */
+
+legend{
+  font-size: 20px;
+  color: rgb(46, 61, 192);
+}
+
+label{
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;  
+}
+
+.contact{
+  font-size: 14px;
+  color: #1b1a1a;
+  margin: 20px 0 0 0;
+}
+
+input:not([type="submit"]), textarea, select{
+  background-color: #e5e2e2;
+  width: 95%;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+textarea{
+  height: 200px;
+}
+
+input[type="radio"]{
+  width: auto;
+  margin: 0px;
+}
+
+.form-contact{
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
